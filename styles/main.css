@@ -145,23 +145,16 @@ h1 {
   .header__logo {
     width: 46px;
     height: 28px;
+    background: url(../images/logo/air-logo.svg) no-repeat center;
     outline: none;
     -webkit-transition: -webkit-transform 0.35s;
     transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
     transition: transform 0.35s, -webkit-transform 0.35s;
     z-index: 2; }
-    .header__logo_img {
-      width: 46px;
-      height: 28px;
-      fill: #fff;
-      -webkit-transition: fill 0.25s;
-      transition: fill 0.25s; }
     .header__logo:hover, .header__logo:focus {
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
-      .header__logo:hover .header__logo_img, .header__logo:focus .header__logo_img {
-        fill: #ff9c8e; }
   .header__content {
     display: -webkit-box;
     display: -ms-flexbox;
