@@ -1,0 +1,56 @@
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  right: 0;
+  width: 687px;
+  height: 680px;
+  padding: 0 0 48px 48px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(../images/slider/slide-img-1.jpg) no-repeat center;
+  background-size: cover;
+  border-top-left-radius: 200px; }
+  .slider__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .slider__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    outline: none; }
+    .slider__btn_img {
+      width: 6px;
+      height: 9px; }
+  .slider__desc {
+    margin-left: 28px; }
+  .slider__title {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .slider__paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%; }
+
+/*# sourceMappingURL=slider.css.map */

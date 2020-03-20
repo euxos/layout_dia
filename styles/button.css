@@ -1,0 +1,18 @@
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 92px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  background-color: #ff9c8e;
+  border-radius: 64px;
+  border: none;
+  -webkit-transition: background-color 0.35s;
+  transition: background-color 0.35s; }
+  .button:hover {
+    background-color: #ff7e6c; }
+
+/*# sourceMappingURL=button.css.map */
