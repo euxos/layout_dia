@@ -29,13 +29,17 @@
     background-repeat: no-repeat;
     background-size: 6px 9px;
     border-radius: 50%;
-    border: none;
     outline: none;
-    cursor: pointer; }
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s; }
     .slider__btn_prev {
       background-image: url(../images/slider/arrow-left.svg); }
     .slider__btn_next {
       background-image: url(../images/slider/arrow-right.svg); }
+    .slider__btn:hover {
+      background-color: #dedede; }
   .slider__desc {
     margin-left: 28px; }
   .slider__title {

@@ -39,7 +39,7 @@
             transform: rotate(90deg); }
   .toggle:checked ~ .nav__list {
     visibility: visible;
-    right: 0; }
+    left: 0; }
   @media screen and (max-width: 1024px) {
     .toggle__btn {
       display: block; } }
