@@ -44,12 +44,16 @@
   height: 800px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow: hidden;
   color: #fff;
   font-family: "Poppins", sans-serif;
   background-color: #008aff;
   border-bottom-left-radius: 200px; }
   .header__nav {
-    height: 116px; }
+    height: 120px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
   .header__logo {
     width: 46px;
     height: 28px;
@@ -64,9 +68,10 @@
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
   .header__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 48px;
+    height: 680px; }
   .header__article {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -75,11 +80,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     max-width: 490px;
-    margin-top: 124px; }
+    padding: 0 24px 85px 0; }
   .header__title {
     margin-bottom: 32px;
     font-family: "Poppins", sans-serif;
@@ -93,5 +100,32 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 150%; }
+  .header__button {
+    width: 226px; }
+  @media screen and (max-width: 1024px) {
+    .header {
+      height: 600px; }
+      .header__content {
+        height: 480px; }
+      .header__title {
+        font-size: 48px;
+        line-height: 52px; }
+      .header__paragraph {
+        margin-bottom: 48px;
+        font-size: 16px; } }
+  @media screen and (max-width: 800px) {
+    .header {
+      height: 800px; }
+      .header__nav {
+        height: 80px; }
+      .header__content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 48px; }
+      .header__article {
+        height: 300px;
+        padding-bottom: 0; }
+      .header__paragraph {
+        margin-bottom: 32px; } }
 
 /*# sourceMappingURL=header.css.map */
