@@ -48,6 +48,9 @@
   font-family: "Poppins", sans-serif;
   background-color: #008aff;
   border-bottom-left-radius: 200px; }
+  .header__container {
+    height: 800px;
+    overflow: hidden; }
   .header__nav {
     height: 120px;
     padding-top: 4px;
@@ -98,7 +101,10 @@
     width: 226px; }
   @media screen and (max-width: 1024px) {
     .header {
-      height: 600px; }
+      height: 600px;
+      border-bottom-left-radius: 130px; }
+      .header__container {
+        height: 602px; }
       .header__content {
         height: 480px; }
       .header__paragraph {
@@ -106,8 +112,9 @@
         font-size: 16px; } }
   @media screen and (max-width: 800px) {
     .header {
-      height: 800px;
-      border-bottom-left-radius: 130px; }
+      height: 800px; }
+      .header__container {
+        height: 800px; }
       .header__nav {
         height: 80px; }
       .header__content {

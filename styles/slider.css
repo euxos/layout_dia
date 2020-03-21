@@ -55,14 +55,14 @@
       width: calc(100% / 2); } }
   @media screen and (max-width: 1024px) {
     .slider {
-      height: 480px; } }
+      height: 480px;
+      border-top-left-radius: 130px; } }
   @media screen and (max-width: 800px) {
     .slider {
       position: relative;
       width: 100%;
       height: 300px;
-      grid-row: 1 / 2;
-      border-top-left-radius: 130px; } }
+      grid-row: 1 / 2; } }
   @media screen and (max-width: 480px) {
     .slider {
       padding: 24px; }

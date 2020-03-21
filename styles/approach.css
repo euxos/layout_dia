@@ -1,0 +1,119 @@
+.approach {
+  background-color: #ff9c8e;
+  border-radius: 200px 0 0 200px;
+  -webkit-transform: translateX(122px);
+          transform: translateX(122px); }
+  .approach--transform {
+    -webkit-transform: translateX(-122px);
+            transform: translateX(-122px); }
+  .approach__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 204px;
+    padding-bottom: 204px;
+    padding-left: 98px; }
+  .approach__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 686px;
+    height: 680px;
+    background: url(../images/what-we-do/approach-1.jpg) no-repeat left;
+    background-size: cover;
+    border-radius: 200px 0 0 0; }
+  .approach__note {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 16px;
+    -ms-flex-line-pack: start;
+        align-content: start; }
+  .approach__title--s, .approach__title {
+    color: #fff; }
+  .approach__title {
+    max-width: 362px;
+    margin-bottom: 16px; }
+  .approach__desc {
+    display: grid;
+    max-width: 440px;
+    grid-template-columns: 1fr auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #fff; }
+    .approach__desc--3 {
+      margin-bottom: 0; }
+    .approach__desc--1::before {
+      background: url(../images/features/features-item-icon-1.svg) no-repeat center; }
+    .approach__desc--2::before {
+      background: url(../images/features/features-item-icon-2.svg) no-repeat center; }
+    .approach__desc--3::before {
+      background: url(../images/features/features-item-icon-3.svg) no-repeat center; }
+    .approach__desc::before {
+      content: "";
+      width: 64px;
+      height: 64px;
+      margin-right: 34px;
+      border-radius: 50%;
+      background-color: #fff;
+      background-size: contain; }
+  @media screen and (max-width: 1600px) {
+    .approach__container {
+      padding-left: 180px; }
+    .approach__img {
+      width: calc((100% - 120px) / 2); } }
+  @media screen and (max-width: 1280px) {
+    .approach__container {
+      padding-top: 164px;
+      padding-bottom: 164px; }
+    .approach__desc {
+      max-width: 380px; } }
+  @media screen and (max-width: 1024px) {
+    .approach {
+      border-radius: 130px 0 0 130px;
+      -webkit-transform: translateX(48px);
+              transform: translateX(48px); }
+      .approach--transform {
+        -webkit-transform: translateX(-48px);
+                transform: translateX(-48px); }
+      .approach__container {
+        padding-top: 88px;
+        padding-bottom: 88px;
+        padding-left: 108px; }
+      .approach__img {
+        height: 480px;
+        width: calc((100% - 180px) / 2);
+        border-radius: 130px 0 0 0; }
+      .approach__title {
+        max-width: 100%; }
+      .approach__desc {
+        max-width: 340px; } }
+  @media screen and (max-width: 800px) {
+    .approach__container {
+      justify-items: center;
+      padding-top: 124px;
+      padding-bottom: 124px;
+      padding-left: 48px;
+      margin-left: 48px; }
+    .approach__img {
+      display: none; }
+    .approach__title, .approach__desc {
+      max-width: 490px; } }
+  @media screen and (max-width: 480px) {
+    .approach {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      border-radius: 0 130px 130px 0; }
+      .approach--transform {
+        -webkit-transform: translateX(0);
+                transform: translateX(0); }
+      .approach__container {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        margin-left: 0; } }
+
+/*# sourceMappingURL=approach.css.map */

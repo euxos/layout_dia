@@ -51,8 +51,13 @@
             -ms-flex-pack: start;
                 justify-content: start; } }
   @media screen and (max-width: 480px) {
+    .work__container {
+      padding-left: 0;
+      padding-right: 0; }
     .work__cards {
       grid-template-columns: 1fr;
-      grid-template-rows: auto; } }
+      grid-template-rows: auto; }
+    .work__note {
+      padding: 0 48px; } }
 
 /*# sourceMappingURL=work.css.map */
