@@ -1,10 +1,4 @@
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins/Poppins-Regular.ttf");
   font-weight: 400; }
@@ -93,8 +87,6 @@
     margin-bottom: 32px; }
   .header__paragraph {
     margin-bottom: 83px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 150%; }
   .header__button {
