@@ -2,7 +2,8 @@
   background-color: #ff9c8e;
   border-radius: 200px 0 0 200px;
   -webkit-transform: translateX(122px);
-          transform: translateX(122px); }
+          transform: translateX(122px);
+  margin-bottom: 148px; }
   .approach--transform {
     -webkit-transform: translateX(-122px);
             transform: translateX(-122px); }
@@ -72,6 +73,7 @@
       max-width: 380px; } }
   @media screen and (max-width: 1024px) {
     .approach {
+      margin-bottom: 88px;
       border-radius: 130px 0 0 130px;
       -webkit-transform: translateX(48px);
               transform: translateX(48px); }
@@ -91,16 +93,18 @@
       .approach__desc {
         max-width: 340px; } }
   @media screen and (max-width: 800px) {
-    .approach__container {
-      justify-items: center;
-      padding-top: 124px;
-      padding-bottom: 124px;
-      padding-left: 48px;
-      margin-left: 48px; }
-    .approach__img {
-      display: none; }
-    .approach__title, .approach__desc {
-      max-width: 490px; } }
+    .approach {
+      margin-bottom: 62px; }
+      .approach__container {
+        justify-items: center;
+        padding-top: 124px;
+        padding-bottom: 124px;
+        padding-left: 48px;
+        margin-left: 48px; }
+      .approach__img {
+        display: none; }
+      .approach__title, .approach__desc {
+        max-width: 490px; } }
   @media screen and (max-width: 480px) {
     .approach {
       -webkit-transform: translateX(0);

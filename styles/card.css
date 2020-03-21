@@ -44,14 +44,14 @@
       width: 40px;
       height: 40px;
       margin-right: 16px;
-      -webkit-transition: -webkit-transform 0.35s;
-      transition: -webkit-transform 0.35s;
-      transition: transform 0.35s;
-      transition: transform 0.35s, -webkit-transform 0.35s;
+      -webkit-transition: all 0.45s;
+      transition: all 0.45s;
       background: url(../images/card/row.svg) no-repeat center;
       background-size: 16px;
       border-radius: 50%; }
     .card__button:hover::before {
+      -webkit-box-shadow: 0 4px 8px rgba(37, 41, 49, 0.15);
+              box-shadow: 0 4px 8px rgba(37, 41, 49, 0.15);
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
   .card--1 > .card__title {
@@ -60,20 +60,20 @@
   .card--1 > .card__button::before {
     background-color: #56ccf2; }
   .card--2 > .card__title {
-    color: #fcc91d;
-    background-color: rgba(252, 201, 29, 0.1); }
+    color: #fcc304;
+    background-color: rgba(252, 195, 4, 0.1); }
   .card--2 > .card__button::before {
-    background-color: #fcc91d; }
+    background-color: #fcc304; }
   .card--3 > .card__title {
     color: #15d850;
     background-color: rgba(21, 216, 80, 0.1); }
   .card--3 > .card__button::before {
     background-color: #15d850; }
   .card--4 > .card__title {
-    color: #f36363;
-    background-color: rgba(243, 99, 99, 0.1); }
+    color: #f25656;
+    background-color: rgba(242, 86, 86, 0.1); }
   .card--4 > .card__button::before {
-    background-color: #f36363; }
+    background-color: #f25656; }
   .card__desc {
     max-width: 180px;
     margin-bottom: 6px;
