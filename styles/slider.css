@@ -18,14 +18,12 @@
   .slider__nav {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 18px; }
+    display: flex; }
   .slider__btn {
     width: 32px;
     height: 32px;
     margin-right: 8px;
     background-color: #fff;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: 6px 9px;
     border-radius: 50%;
@@ -35,20 +33,17 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s; }
     .slider__btn_prev {
-      background-image: url(../images/slider/arrow-left.svg); }
+      background-image: url(../images/slider/arrow-left.svg);
+      background-position: 48% 50%; }
     .slider__btn_next {
-      background-image: url(../images/slider/arrow-right.svg); }
+      background-image: url(../images/slider/arrow-right.svg);
+      background-position: 52% 50%; }
     .slider__btn:hover {
-      background-color: #dedede; }
+      background-color: #f2f9ff; }
   .slider__desc {
     margin-left: 28px; }
   .slider__title {
-    margin-bottom: 8px;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 19px;
-    letter-spacing: 3px;
-    text-transform: uppercase; }
+    margin-bottom: 8px; }
   .slider__paragraph {
     max-width: 490px;
     font-family: "Open Sans", sans-serif;
@@ -66,7 +61,8 @@
       position: relative;
       width: 100%;
       height: 300px;
-      grid-row: 1 / 2; } }
+      grid-row: 1 / 2;
+      border-top-left-radius: 130px; } }
   @media screen and (max-width: 480px) {
     .slider {
       padding: 24px; }

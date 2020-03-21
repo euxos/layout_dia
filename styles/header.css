@@ -87,12 +87,7 @@
     max-width: 490px;
     padding: 0 24px 85px 0; }
   .header__title {
-    margin-bottom: 32px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 68px;
-    letter-spacing: -2px; }
+    margin-bottom: 32px; }
   .header__paragraph {
     margin-bottom: 83px;
     font-family: "Open Sans", sans-serif;
@@ -106,15 +101,13 @@
       height: 600px; }
       .header__content {
         height: 480px; }
-      .header__title {
-        font-size: 48px;
-        line-height: 52px; }
       .header__paragraph {
         margin-bottom: 48px;
         font-size: 16px; } }
   @media screen and (max-width: 800px) {
     .header {
-      height: 800px; }
+      height: 800px;
+      border-bottom-left-radius: 130px; }
       .header__nav {
         height: 80px; }
       .header__content {
