@@ -543,6 +543,7 @@ ul {
       color: rgba(255, 255, 255, 0.7);
       background-color: #008aff; }
     .form__input:-webkit-autofill, .form__input:-webkit-autofill:hover, .form__input:-webkit-autofill:focus, .form__input:-webkit-autofill:active {
+      box-shadow: 0 0 0 30px #008aff inset !important;
       -webkit-box-shadow: 0 0 0 30px #008aff inset !important;
       -webkit-text-fill-color: #fff !important; }
     .form__input--message {
