@@ -100,8 +100,10 @@
     .title--m {
       font-size: 38px; } }
   @media screen and (max-width: 480px) {
+    .title--xxs {
+      font-size: 11px; }
     .title--s {
-      font-size: 24px; }
+      font-size: 20px; }
     .title--m {
       font-size: 32px; } }
 
@@ -554,6 +556,11 @@ ul {
       margin-bottom: 80px;
       overflow: hidden;
       resize: none; }
+  @media screen and (max-width: 800px) {
+    .form__input {
+      height: 48px;
+      margin-bottom: 32px;
+      padding: 9px 0; } }
 
 .slider {
   display: -webkit-box;
@@ -1180,7 +1187,15 @@ ul {
       .approach__container {
         padding-top: 64px;
         padding-bottom: 64px;
-        margin-left: 0; } }
+        margin-left: 0; }
+      .approach__desc {
+        grid-template-columns: 1fr;
+        grid-row-gap: 16px;
+        justify-items: center;
+        text-align: center;
+        margin-bottom: 32px; }
+        .approach__desc::before {
+          margin: 0; } }
 
 .review {
   margin-bottom: 168px; }
@@ -1467,6 +1482,8 @@ ul {
     .contact__form {
       max-width: 320px; } }
   @media screen and (max-width: 1024px) {
+    .contact__container {
+      border-top-right-radius: 130px; }
     .contact__wrapper {
       grid-column-gap: 48px;
       padding-top: 88px; } }

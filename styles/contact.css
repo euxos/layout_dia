@@ -86,6 +86,8 @@
     .contact__form {
       max-width: 320px; } }
   @media screen and (max-width: 1024px) {
+    .contact__container {
+      border-top-right-radius: 130px; }
     .contact__wrapper {
       grid-column-gap: 48px;
       padding-top: 88px; } }
