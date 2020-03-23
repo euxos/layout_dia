@@ -46,7 +46,7 @@
       margin-right: 16px;
       -webkit-transition: all 0.45s;
       transition: all 0.45s;
-      background: url(../images/card/row.svg) no-repeat center;
+      background: url(../images/icons/row.svg) no-repeat center;
       background-size: 16px;
       border-radius: 50%; }
     .card__button:hover::before {
