@@ -46,7 +46,6 @@
     height: 800px;
     overflow: hidden; }
   .header__nav {
-    height: 120px;
     padding-top: 4px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
@@ -107,8 +106,6 @@
       height: 800px; }
       .header__container {
         height: 800px; }
-      .header__nav {
-        height: 80px; }
       .header__content {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
