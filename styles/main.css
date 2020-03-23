@@ -101,7 +101,9 @@
       font-size: 38px; } }
   @media screen and (max-width: 480px) {
     .title--s {
-      font-size: 24px; } }
+      font-size: 24px; }
+    .title--m {
+      font-size: 32px; } }
 
 .link {
   color: #fff; }
