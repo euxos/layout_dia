@@ -1,15 +1,15 @@
 .contact {
   position: relative;
-  background-color: #fff;
-  z-index: 2; }
+  background-color: #fff; }
   .contact::before {
     position: absolute;
     content: "";
     height: 100%;
-    width: calc(100% / 2);
+    width: 800px;
     background-color: #008aff;
     z-index: 0; }
   .contact__container {
+    position: relative;
     background-color: #008aff;
     border-top-right-radius: 200px;
     z-index: 1; }

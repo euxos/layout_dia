@@ -37,7 +37,9 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
-    color: #334563; }
+    color: #334563;
+    -webkit-transition: all 0.45s;
+    transition: all 0.45s; }
     .card__button::before {
       display: block;
       content: "";
@@ -54,6 +56,14 @@
               box-shadow: 0 4px 8px rgba(37, 41, 49, 0.15);
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
+    .card__button--1:hover {
+      color: #56ccf2; }
+    .card__button--2:hover {
+      color: #fcc304; }
+    .card__button--3:hover {
+      color: #15d850; }
+    .card__button--4:hover {
+      color: #f25656; }
   .card--1 > .card__title {
     color: #56ccf2;
     background-color: rgba(86, 204, 242, 0.1); }

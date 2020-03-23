@@ -734,7 +734,9 @@ ul {
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
-    color: #334563; }
+    color: #334563;
+    -webkit-transition: all 0.45s;
+    transition: all 0.45s; }
     .card__button::before {
       display: block;
       content: "";
@@ -751,6 +753,14 @@ ul {
               box-shadow: 0 4px 8px rgba(37, 41, 49, 0.15);
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
+    .card__button--1:hover {
+      color: #56ccf2; }
+    .card__button--2:hover {
+      color: #fcc304; }
+    .card__button--3:hover {
+      color: #15d850; }
+    .card__button--4:hover {
+      color: #f25656; }
   .card--1 > .card__title {
     color: #56ccf2;
     background-color: rgba(86, 204, 242, 0.1); }
@@ -1133,16 +1143,16 @@ ul {
 
 .contact {
   position: relative;
-  background-color: #fff;
-  z-index: 2; }
+  background-color: #fff; }
   .contact::before {
     position: absolute;
     content: "";
     height: 100%;
-    width: calc(100% / 2);
+    width: 800px;
     background-color: #008aff;
     z-index: 0; }
   .contact__container {
+    position: relative;
     background-color: #008aff;
     border-top-right-radius: 200px;
     z-index: 1; }
