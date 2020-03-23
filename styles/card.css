@@ -51,19 +51,6 @@
       background: url(../images/icons/row.svg) no-repeat center;
       background-size: 16px;
       border-radius: 50%; }
-    .card__button:hover::before {
-      -webkit-box-shadow: 0 4px 8px rgba(37, 41, 49, 0.15);
-              box-shadow: 0 4px 8px rgba(37, 41, 49, 0.15);
-      -webkit-transform: scale(1.2);
-              transform: scale(1.2); }
-    .card__button--1:hover {
-      color: #56ccf2; }
-    .card__button--2:hover {
-      color: #fcc304; }
-    .card__button--3:hover {
-      color: #15d850; }
-    .card__button--4:hover {
-      color: #f25656; }
   .card--1 > .card__title {
     color: #56ccf2;
     background-color: rgba(86, 204, 242, 0.1); }
@@ -91,6 +78,19 @@
     font-size: 13px;
     line-height: 150%;
     color: #6c788b; }
+  .card:hover .card__button::before {
+    -webkit-box-shadow: 0 4px 8px rgba(37, 41, 49, 0.15);
+            box-shadow: 0 4px 8px rgba(37, 41, 49, 0.15);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+  .card:hover .card__button--1 {
+    color: #56ccf2; }
+  .card:hover .card__button--2 {
+    color: #fcc304; }
+  .card:hover .card__button--3 {
+    color: #15d850; }
+  .card:hover .card__button--4 {
+    color: #f25656; }
   @media screen and (max-width: 1024px) {
     .card--1, .card--3 {
       -webkit-transform: translateY(0);
