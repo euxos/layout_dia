@@ -121,7 +121,8 @@
         margin-right: 0; } }
   @media screen and (max-width: 480px) {
     .nav--footer {
-      height: initial; }
+      padding-top: 32px;
+      padding-bottom: 64px; }
     .nav__list {
       grid-template-columns: 1fr; } }
 

@@ -401,7 +401,8 @@ ul {
         margin-right: 0; } }
   @media screen and (max-width: 480px) {
     .nav--footer {
-      height: initial; }
+      padding-top: 32px;
+      padding-bottom: 64px; }
     .nav__list {
       grid-template-columns: 1fr; } }
 
@@ -1495,7 +1496,9 @@ ul {
     .contact__form {
       margin-top: 24px; }
     .contact__adress {
-      margin-top: 42px; } }
+      margin-top: 32px; }
+    .contact__item-wrapper {
+      margin-bottom: 24px; } }
 
 body {
   background: #f2f9ff; }
