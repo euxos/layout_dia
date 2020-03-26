@@ -32,7 +32,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 460px; }
+    max-width: 460px;
+    width: 100%; }
   .contact__adress {
     margin-top: 56px; }
   .contact__item-wrapper {
